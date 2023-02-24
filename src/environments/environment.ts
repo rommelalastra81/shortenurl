@@ -3,7 +3,13 @@
 // The list of file replacements can be found in `angular.json`.
 
 export const environment = {
-  production: false
+  production: false,
+  APIURLHost: 'https://api-ssl.bitly.com',
+  app_url: 'https://api-ssl.bitly.com',
+  api_url: 'https://api-ssl.bitly.com',
+  web_api_url: 'https://api-ssl.bitly.com',
+  storage_url: 'https://api-ssl.bitly.com',
+  deployment_target: 'PROD'
 };
 
 /*

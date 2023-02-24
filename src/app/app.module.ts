@@ -11,6 +11,7 @@ import { MatMenuModule } from '@angular/material/menu';
 import { MatButtonModule } from '@angular/material/button';
 import { MatIconModule } from '@angular/material/icon';
 import { ShortenurlComponent } from './components/shortenurl/shortenurl.component';
+import { EffectsModule } from '@ngrx/effects';
 
 
 @NgModule({
@@ -28,6 +29,8 @@ import { ShortenurlComponent } from './components/shortenurl/shortenurl.componen
     MatMenuModule,
     MatButtonModule,
     MatIconModule,
+    AppRoutingModule,
+    EffectsModule
    
   ],
   providers: [],
