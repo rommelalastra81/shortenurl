@@ -15,19 +15,9 @@ export default class AppSettings {
 
     public getHeaders():any{
         this.headers = {headers: new HttpHeaders({
-            'Authorization':'Bearer '+localStorage.getItem('token'),
-            'Accept':'application/json',
+            'Content-Type': 'application/json',
+            'Authorization': `Bearer 3d83f0f8abcfd3d0aab6b99c4021116124dde85e`
         }) }
         return this.headers;
     }
-
-    public getHeadersLogo():any{
-        this.headers = {headers: new HttpHeaders({
-            'Authorization':'Bearer '+localStorage.getItem('token'),
-            'Accept':'application/json',
-            'Content-Type':'multipart/form-data'
-        }) }
-        return this.headers;
-    }
-
 }

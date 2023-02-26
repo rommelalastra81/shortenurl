@@ -4,7 +4,7 @@ import { ShortenurlComponent } from './components/shortenurl/shortenurl.componen
 
 const routes: Routes = [
 
-  { path: 'shortenurl', component: ShortenurlComponent },
+  { path: '', component: ShortenurlComponent },
 
 
 
